@@ -1,0 +1,71 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    min-width: 100%;
+    width: fit-content;
+  }
+
+body{
+    height: 100vh;
+    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../imagenes/agua.jpg);
+    background-size: cover;
+    background-position: left;
+    height: 90vh;
+    border-radius: 10px 50px 10px 50px;
+}
+.bg-light {
+   background-color:#c6ddff!important;
+   border-bottom: 1px solid #46494d!important;
+}
+.table-bordered {
+    border: 1px solid #dee2e6;
+  }
+.table{
+    background-color: rgb(36, 36, 41);
+    color: rgb(250, 249, 249);
+}
+.table-hover tbody tr:hover {
+  color: unset
+}
+#formulario {
+    min-width: 300px;
+    height: fit-content;
+    max-width: 920px;
+    color: white;
+    font-size: 2em;
+    text-shadow: 1px 1px 1px navy;
+    background-color: rgba(128, 128, 128, 0.5);
+    padding: 15px;
+    border-radius: 10px 50px 10px 50px;
+    margin: auto;
+  }
+  button {
+    background-color: #2e3f53;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10px 50px 10px 50px;
+  }
+  .btn-success {
+    color: #fff;
+    background-color: #285fa7;
+    border-color: #03245f;
+    padding: 14px 20px;
+  }
+ 
+  #añadir {
+    width: 70%;
+    margin: auto;
+    display: block;
+  }
+  
